@@ -19,7 +19,7 @@ import Footer from './components/Footer.vue'
       <Card addon="hover:bg-opacity-50 max-h-[102rem]">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-2 place-items-center items-center">
           <div class="col-span-1 overflow-hidden rounded">
-            <img src="./assets/images/dyah.jpg" alt="No Image :D"
+            <img src="./components/images/dyah.jpg" alt="No Image :D"
               class="object-cover rounded hover:scale-110 transition-all duration-300"
               style="width: 25rem; height: 25rem;">
           </div>
