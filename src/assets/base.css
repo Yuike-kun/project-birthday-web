@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Red Hat';
+  src: url('../assets/fonts/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Homemade Apple';
+  src: url('../assets/fonts/HomemadeApple-Regular.ttf');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* margin: 0 1.4rem; */
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: #0e0e0e;
+  background: rgb(238,179,230);
+background: linear-gradient(142deg, rgba(238,179,230,1) 0%, rgba(0,223,250,1) 100%);
+  /* background: #fefefe; */
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  /* line-height: 1.6; */
+  font-family : 'Red Hat';
+  font-size: 15px;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pretty-font {
+  font-family: 'Homemade Apple';
+}

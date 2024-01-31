@@ -1,0 +1,14 @@
+[
+    {
+        "name" : "About",
+        "to" : "#about"
+    },
+    {
+        "name" : "Invitation",
+        "to" : "#invite"
+    },
+    {
+        "name" : "Join",
+        "to" : "#join"
+    }
+]

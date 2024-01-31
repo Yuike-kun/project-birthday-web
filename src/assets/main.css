@@ -1,0 +1,16 @@
+@import './base.css';
+@import './style.css';
+
+#app {
+  max-width: 100vw;
+  font-weight: normal;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  background: transparent;
+}
+
+/* ::-webkit-scrollbar-track {
+  display: none;
+} */
