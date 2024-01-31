@@ -16,7 +16,7 @@ import FrenData from '@/assets/data/friendsData.json'
                     <span class="font-semibold text-2xl">
                         {{ item.name }}
                     </span>
-                    <img :src="'/src/assets/images/' + item.image" class="rounded-full w-28 h-28 object-cover">
+                    <img :src="'@/src/assets/images/' + item.image" class="rounded-full w-28 h-28 object-cover">
                     <p>
                         {{ item.quote }}
                     </p>
