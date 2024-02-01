@@ -10,7 +10,7 @@ let theTimer = [
 ]
 
 const countdownFunc = () => {
-    var countDownDate = new Date("Feb 30, 2024 15:37:25").getTime();
+    var countDownDate = new Date("Nov 23, 2024 15:37:25").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(() => {

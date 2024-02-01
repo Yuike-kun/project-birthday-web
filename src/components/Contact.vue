@@ -43,22 +43,22 @@ import Input from './Input.vue'
 
     <fieldset
         class="bg-neutral-900 px-4 py-10 w-[75vw] rounded text-neutral-100 flex flex-col shadow-lg shadow-neutral-800">
-        <span class="text-3xl font-bold text-center"> Berikan Suara Anda </span>
-        <small class="text-center"> Note : Bukan Nyapres ya </small>
+        <span class="text-3xl font-bold text-center"> Give us your opinion </span>
+        <small class="text-center"> Note : This is a dummy </small>
 
         <div class="flex flex-col gap-5 items-center">
             <div class="grid grid-cols-1 w-11/12">
-                <Input type="text" label="Nama Anda" name="name"/>
+                <Input type="text" label="Your Name" name="name"/>
             </div>
             <div class="grid grid-cols-1 w-11/12">
-                <Input type="text" label="Kesan Anda" name="kesan"/>
+                <Input type="text" label="Your Opinion" name="kesan"/>
             </div>
             <div class="grid grid-cols-1 w-11/12">
-                <Input type="text" label="Pesan Anda" name="pesan"/>
+                <Input type="text" label="Is There Anything more?" name="pesan"/>
             </div>
             <button
                 class="border w-11/12 py-2 rounded-md hover:bg-slate-100 hover:text-neutral-900 transition-all duration-300">
-                Kirim Suara Kamu!
+                Send Your Opinion
             </button>
         </div>
     </fieldset>
